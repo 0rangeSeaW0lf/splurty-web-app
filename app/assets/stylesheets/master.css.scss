@@ -95,8 +95,10 @@ h2 span {
 	}
 }
 
-.center-block {
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
+.center {
+  	height: 50%;
+  	overflow: auto;
+  	margin: auto;
+  	position: absolute;
+  	top: 0; left: 0; bottom: 0; right: 0;
 }
